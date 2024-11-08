@@ -2,6 +2,12 @@
 <html>
 <head>
     <title>We're learning HTML</title>
+    <style>
+        .tall {
+            height: 300px; 
+            border: 3px solid red
+        }
+    </style>
 </head>
 <body>
     <h1>this is an H1 tag</h1>
@@ -32,7 +38,7 @@
     </div>
     <div>inline tags:
         <ul style="list-style-type:circle">
-            <li>span - <div style="font-style: italic;">like <span style="font-weight:bold">div</span>, but not block</div></li>
+            <li>span - <span style="font-style: italic;">like <span style="font-weight:bold">div</span>, but not block</span></li>
             <li>img - images</li>
             <li>a - anchor tag is how make links</li>
             <li>input - input from user</li>
@@ -47,14 +53,16 @@
 
     <div>tomorrow agenda
         <ol>
-            <li>tables</li>
             <li>attributes</li>
+            <li>emmet primer</li>
+            <li>tables</li>
             <li>forms and inputs</li>
             <li>buttons</li>
-            <li>semantic tags: header, footer, aside, main, article, nav, section, details</li>
         </ol>
     </div>
 
-    <div style="height:500px"></div>
+    <div class="tall" id="bottomWhiteSpace"></div>
+
+    
 </body>
 </html>
