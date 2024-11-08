@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-size: 1rem;
+    /* stick to px for fixed, rem and vh/vw for relative */
+}
+
+h1 {
+    border: 1px dashed red;
+    width: 50%;
+
+}
+
+#header {
+    width: 50%;
+    border: 1px dotted green;
+    padding: .2rem;
+}
