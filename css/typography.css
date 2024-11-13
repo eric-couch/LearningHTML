@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    padding: 10%;
+    font-size: 1.5rem;
+    /* serif, sans-serif, monospace, cursive, fantasy */
+    font-family: 'Sour Gummy';
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor:default;
+
+}
+
+/* a few text based css properties
+    a few line based css properties for text 
+    a lot of font css properties */
+
+p {
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+/* input, button {
+    font: inherit;
+} */
